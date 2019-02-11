@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6151f9209967c4ba410aa5e04893ed, type: 3}
+  m_Name: Monster_Info
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Monster_Info
+  dataArray:
+  - mid: 0
+    mob: goblin
+    weight: 10
+    kor: "\uACE0\uBE14\uB9B0"
+    eng: Goblin
+    showupday: 0
+  - mid: 1
+    mob: gargoyle
+    weight: 15
+    kor: "\uAC00\uACE0\uC77C"
+    eng: Gargoyle
+    showupday: 2
+  - mid: 2
+    mob: hellhound
+    weight: 20
+    kor: "\uD5EC \uD558\uC6B4\uB4DC"
+    eng: HellHound
+    showupday: 5
+  - mid: 3
+    mob: wyvern
+    weight: 25
+    kor: "\uC640\uC774\uBC88"
+    eng: Wyvern
+    showupday: 8
+  - mid: 4
+    mob: troll
+    weight: 30
+    kor: "\uD2B8\uB864"
+    eng: Troll
+    showupday: 13
+  - mid: 5
+    mob: sabretooth
+    weight: 35
+    kor: "\uAC80\uCE58\uD638"
+    eng: Sabretooth
+    showupday: 17
+  - mid: 6
+    mob: griffon
+    weight: 40
+    kor: "\uADF8\uB9AC\uD3F0"
+    eng: Griffon
+    showupday: 25
+  - mid: 7
+    mob: minotaurus
+    weight: 45
+    kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4"
+    eng: Minotaurus
+    showupday: 35

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ed2618d2f4a7f488fc1119facca390, type: 3}
+  m_Name: Merchant_Interior
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Merchant_Interior
+  dataArray:
+  - interiornum: 0
+    interiorkeyname: shelf
+    namekor: "\uC120\uBC18"
+    nameeng: shelf
+    micmtkor: "\uB8F8\uC758 \uBD84\uC704\uAE30\uB97C \uC0B4\uB824\uC904 \uC120\uBC18"
+    micmteng: This shelf will increase your room's mood
+    price: 10000
+  - interiornum: 1
+    interiorkeyname: chandelier
+    namekor: "\uC0F9\uB4E4\uB9AC\uC5D0"
+    nameeng: chandelier
+    micmtkor: "\uC544\uB291\uD55C \uC0F9\uB4E4\uB9AC\uC5D0"
+    micmteng: chandelier from the chandelier
+    price: 20000
+  - interiornum: 2
+    interiorkeyname: candlestick
+    namekor: "\uCC45\uC0C1 \uCD1B\uB300"
+    nameeng: desk candlestick
+    micmtkor: "\uCC45\uC0C1\uC5D0 \uCD1B\uB300\uB97C \uB461\uB2C8\uB2E4."
+    micmteng: candlestick on your desk
+    price: 30000
+  - interiornum: 3
+    interiorkeyname: axe
+    namekor: "\uB3C4\uB07C \uC7A5\uC2DD"
+    nameeng: axe deco
+    micmtkor: "\uB3C4\uB07C \uC7A5\uC2DD\uD488\uC744 \uB461\uB2C8\uB2E4."
+    micmteng: axe decoration
+    price: 40000
+  - interiornum: 4
+    interiorkeyname: barrior
+    namekor: "\uBC29\uD328 \uC7A5\uC2DD"
+    nameeng: barrior deco
+    micmtkor: "\uBC29\uD328 \uC7A5\uC2DD\uD488\uC744 \uB461\uB2C8\uB2E4."
+    micmteng: barrior decoration
+    price: 50000
+  - interiornum: 5
+    interiorkeyname: chair
+    namekor: "\uC758\uC790"
+    nameeng: chair
+    micmtkor: "\uC758\uC790\uB97C \uB461\uB2C8\uB2E4."
+    micmteng: chair decoration
+    price: 60000
+  - interiornum: 9000
+    interiorkeyname: '-'
+    namekor: '-'
+    nameeng: '-'
+    micmtkor: "\uC774 \uC778\uD14C\uB9AC\uC5B4\uB85C \uBC29\uC744 \uAFB8\uBC00 \uC218
+      \uC788\uC2B5\uB2C8\uB2E4."
+    micmteng: Get these interiors.
+    price: 0
+  - interiornum: 9001
+    interiorkeyname: '-'
+    namekor: '-'
+    nameeng: '-'
+    micmtkor: "\uBC29\uC744 \uC544\uB291\uD558\uAC8C \uAFB8\uBBF8\uC138\uC694."
+    micmteng: Make your room.
+    price: 0

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda12f81f024ae49834886b5af4eefe, type: 3}
+  m_Name: Merchant_Weapon
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Merchant_Weapon
+  dataArray:
+  - weaponnum: 0
+    weaponkeyname: weapon_0
+    price: 1000
+    mwcmtkor: "\uD3C9\uBC94\uD55C \uC190\uB3C4\uB07C\uC785\uB2C8\uB2E4. "
+    mwcmteng: Common hand axe.
+  - weaponnum: 1
+    weaponkeyname: weapon_1
+    price: 3000
+    mwcmtkor: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uD65C \uC785\uB2C8\uB2E4. "
+    mwcmteng: Wooden_Bow.
+  - weaponnum: 2
+    weaponkeyname: weapon_2
+    price: 7000
+    mwcmtkor: "\uC77C\uAE30\uAC00 \uC88B\uC740 \uB0A0, \uC9C4\uD759 \uAC19\uC740 \uBC24.
+      \uC544\uB2C8\uB2E4 \uC774 \uC545\uB9C8\uC57C."
+    mwcmteng: No lantern. It's a Ring-tern.
+  - weaponnum: 3
+    weaponkeyname: weapon_3
+    price: 12000
+    mwcmtkor: "\uB3C8\uC785\uB2C8\uB2E4. \uAC00\uC7A5 \uB4E0\uB4E0\uD55C \uBB34\uAE30\uC785\uB2C8\uB2E4."
+    mwcmteng: Yeah. Coins. Money. THIS FOR ALL. ALL FOR THIS.
+  - weaponnum: 4
+    weaponkeyname: weapon_4
+    price: 17000
+    mwcmtkor: "36\uACC4 \uC904\uD589\uB791\uC744 \uCE60 \uC218 \uC788\uAC8C \uB429\uB2C8\uB2E4."
+    mwcmteng: 'This book teaches you how to RUN. '
+  - weaponnum: 5
+    weaponkeyname: weapon_5
+    price: 25000
+    mwcmtkor: "\uAC11\uC637\uC5D0 \uAD6C\uBA4D\uC744 \uB0B8 \uD6C4 \uC138 \uAC1C\uB97C
+      \uBC15\uC73C\uBA74 \uC218\uC218\uAED8\uB07C \uAC19\uC740 \uC77C\uC774 \uC77C\uC5B4\uB0A0
+      \uAC83\uB9CC \uAC19\uC2B5\uB2C8\uB2E4. "
+    mwcmteng: 3 stones. A Enigma for you.
+  - weaponnum: 6
+    weaponkeyname: weapon_6
+    price: 35000
+    mwcmtkor: "\uBD88\uBA78\uC774 \uB41C \uD55C \uC57C\uB9CC\uD55C \uC6A9\uC0AC\uB97C
+      \uB300\uD45C\uD558\uB294 \uBB34\uAE30\uC785\uB2C8\uB2E4."
+    mwcmteng: Be immotal barbarian with these axes.
+  - weaponnum: 7
+    weaponkeyname: weapon_7
+    price: 50000
+    mwcmtkor: "\uB3D9\uC591\uC758 \uC804\uC124\uC758 \uBB34\uAE30\uC778 \uAC04\uC7A5\uB9C9\uC57C\uC785\uB2C8\uB2E4. "
+    mwcmteng: GanJiang and MoYe. Even sword has love.
+  - weaponnum: 8
+    weaponkeyname: weapon_8
+    price: 70000
+    mwcmtkor: "\uCC9C\uC9C0\uB97C \uAC1C\uBCBD\uD588\uB2E4\uB294 \uC804\uC124\uC758
+      \uAC70\uC778 \uBC18\uACE0\uC758 \uB3C4\uB07C\uC785\uB2C8\uB2E4."
+    mwcmteng: 'Axe of Pan Gu The Giant '
+  - weaponnum: 9
+    weaponkeyname: weapon_9
+    price: 100000
+    mwcmtkor: "\uC81C\uC6B0\uC2A4\uC758 \uBC88\uAC1C\uC785\uB2C8\uB2E4."
+    mwcmteng: Zeus's lighting.
+  - weaponnum: 10
+    weaponkeyname: weapon_10
+    price: 300000
+    mwcmtkor: "\uC5D1\uC2A4\uCE7C\uB9AC\uBC84."
+    mwcmteng: Excalibur.
+  - weaponnum: 9000
+    weaponkeyname: '-'
+    price: 0
+    mwcmtkor: "\uC81C \uBB34\uAE30 \uACF3\uAC04\uC740 \uB9C8\uB974\uC9C8 \uC54A\uB294\uB2F5\uB2C8\uB2E4.
+      \uC5BC\uB9C8\uB4E0\uC9C0 \uC0AC\uAC00\uC2E4 \uC218 \uC788\uC5B4\uC694."
+    mwcmteng: You can buy these holy weapons.
+  - weaponnum: 9001
+    weaponkeyname: '-'
+    price: 0
+    mwcmtkor: "\uC5EC\uAE30 \uC788\uB294 \uC804\uC124\uC758 \uBB34\uAE30\uB4E4\uC740
+      \uC804\uBD80 \uC9C4\uC9DC \uC785\uB2C8\uB2E4. \uC544\uB9C8\uB3C4\uC694."
+    mwcmteng: It is not a replica. may be.
+  - weaponnum: 9002
+    weaponkeyname: '-'
+    price: 0
+    mwcmtkor: "\uACE8\uB77C\uACE8\uB77C. \uC138\uC77C\uC744 \uD55C\uB2E4\uB294 \uAC74
+      \uC544\uB2C8\uAD6C\uC694."
+    mwcmteng: Buy!! anyway, No Discount.

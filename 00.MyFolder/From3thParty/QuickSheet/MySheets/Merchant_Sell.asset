@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0916a4dabd7a004788c48fffe90d7f3, type: 3}
+  m_Name: Merchant_Sell
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Merchant_Sell
+  dataArray:
+  - msnum: 0
+    sellmob: 0
+    sellevidence: 0
+    cmtkor: "\uACE0\uBE14\uB9B0\uC758 \uC190\uAC00\uB77D"
+    cmteng: goblin's finger
+    sellprice: 10
+  - msnum: 1
+    sellmob: 0
+    sellevidence: 1
+    cmtkor: "\uACE0\uBE14\uB9B0\uC758 \uC774\uBE68"
+    cmteng: goblin's canine tooth
+    sellprice: 15
+  - msnum: 2
+    sellmob: 0
+    sellevidence: 2
+    cmtkor: "\uACE0\uBE14\uB9B0\uC758 \uAC00\uC8FD"
+    cmteng: goblin's leather
+    sellprice: 20
+  - msnum: 3
+    sellmob: 0
+    sellevidence: 3
+    cmtkor: "\uACE0\uBE14\uB9B0\uC758 \uCF54\uC5B4"
+    cmteng: goblin's core
+    sellprice: 25
+  - msnum: 4
+    sellmob: 1
+    sellevidence: 0
+    cmtkor: "\uAC00\uACE0\uC77C\uC758 \uC190\uAC00\uB77D"
+    cmteng: gargoyle's finger
+    sellprice: 15
+  - msnum: 5
+    sellmob: 1
+    sellevidence: 1
+    cmtkor: "\uAC00\uACE0\uC77C\uC758 \uC774\uBE68"
+    cmteng: gargoyle's canine tooth
+    sellprice: 20
+  - msnum: 6
+    sellmob: 1
+    sellevidence: 2
+    cmtkor: "\uAC00\uACE0\uC77C\uC758 \uAC00\uC8FD"
+    cmteng: gargoyle's leather
+    sellprice: 30
+  - msnum: 7
+    sellmob: 1
+    sellevidence: 3
+    cmtkor: "\uAC00\uACE0\uC77C\uC758 \uCF54\uC5B4"
+    cmteng: gargoyle's core
+    sellprice: 35
+  - msnum: 8
+    sellmob: 2
+    sellevidence: 0
+    cmtkor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uC190\uAC00\uB77D"
+    cmteng: hellhound's finger
+    sellprice: 20
+  - msnum: 9
+    sellmob: 2
+    sellevidence: 1
+    cmtkor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uC774\uBE68"
+    cmteng: hellhound's canine tooth
+    sellprice: 30
+  - msnum: 10
+    sellmob: 2
+    sellevidence: 2
+    cmtkor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uAC00\uC8FD"
+    cmteng: hellhound's leather
+    sellprice: 40
+  - msnum: 11
+    sellmob: 2
+    sellevidence: 3
+    cmtkor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uCF54\uC5B4"
+    cmteng: hellhound's core
+    sellprice: 50
+  - msnum: 12
+    sellmob: 3
+    sellevidence: 0
+    cmtkor: "\uC640\uC774\uBC88\uC758 \uC190\uAC00\uB77D"
+    cmteng: wyvern's finger
+    sellprice: 24
+  - msnum: 13
+    sellmob: 3
+    sellevidence: 1
+    cmtkor: "\uC640\uC774\uBC88\uC758 \uC774\uBE68"
+    cmteng: wyvern's canine tooth
+    sellprice: 36
+  - msnum: 14
+    sellmob: 3
+    sellevidence: 2
+    cmtkor: "\uC640\uC774\uBC88\uC758 \uAC00\uC8FD"
+    cmteng: wyvern's leather
+    sellprice: 48
+  - msnum: 15
+    sellmob: 3
+    sellevidence: 3
+    cmtkor: "\uC640\uC774\uBC88\uC758 \uCF54\uC5B4"
+    cmteng: wyvern's core
+    sellprice: 60
+  - msnum: 16
+    sellmob: 4
+    sellevidence: 0
+    cmtkor: "\uD2B8\uB864\uC758 \uC190\uAC00\uB77D"
+    cmteng: troll's finger
+    sellprice: 29
+  - msnum: 17
+    sellmob: 4
+    sellevidence: 1
+    cmtkor: "\uD2B8\uB864\uC758 \uC774\uBE68"
+    cmteng: troll's canine tooth
+    sellprice: 43
+  - msnum: 18
+    sellmob: 4
+    sellevidence: 2
+    cmtkor: "\uD2B8\uB864\uC758 \uAC00\uC8FD"
+    cmteng: troll's leather
+    sellprice: 57
+  - msnum: 19
+    sellmob: 4
+    sellevidence: 3
+    cmtkor: "\uD2B8\uB864\uC758 \uCF54\uC5B4"
+    cmteng: troll's core
+    sellprice: 72
+  - msnum: 20
+    sellmob: 5
+    sellevidence: 0
+    cmtkor: "\uAC80\uCE58\uD638 \uC190\uAC00\uB77D"
+    cmteng: sabertooth's finger
+    sellprice: 36
+  - msnum: 21
+    sellmob: 5
+    sellevidence: 1
+    cmtkor: "\uAC80\uCE58\uD638 \uC774\uBE68"
+    cmteng: sabertooth''s canine tooth
+    sellprice: 54
+  - msnum: 22
+    sellmob: 5
+    sellevidence: 2
+    cmtkor: "\uAC80\uCE58\uD638 \uAC00\uC8FD"
+    cmteng: sabertooth''s leather
+    sellprice: 72
+  - msnum: 23
+    sellmob: 5
+    sellevidence: 3
+    cmtkor: "\uAC80\uCE58\uD638 \uCF54\uC5B4"
+    cmteng: sabertooth''s core
+    sellprice: 82
+  - msnum: 24
+    sellmob: 6
+    sellevidence: 0
+    cmtkor: "\uADF8\uB9AC\uD3F0 \uC190\uAC00\uB77D"
+    cmteng: griffon's finger
+    sellprice: 40
+  - msnum: 25
+    sellmob: 6
+    sellevidence: 1
+    cmtkor: "\uADF8\uB9AC\uD3F0 \uC774\uBE68"
+    cmteng: griffon's canine tooth
+    sellprice: 60
+  - msnum: 26
+    sellmob: 6
+    sellevidence: 2
+    cmtkor: "\uADF8\uB9AC\uD3F0 \uAC00\uC8FD"
+    cmteng: griffon's leather
+    sellprice: 80
+  - msnum: 27
+    sellmob: 6
+    sellevidence: 3
+    cmtkor: "\uADF8\uB9AC\uD3F0 \uCF54\uC5B4"
+    cmteng: griffon's core
+    sellprice: 100
+  - msnum: 28
+    sellmob: 7
+    sellevidence: 0
+    cmtkor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uC190\uAC00\uB77D"
+    cmteng: minotaurus's finger
+    sellprice: 80
+  - msnum: 29
+    sellmob: 7
+    sellevidence: 1
+    cmtkor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uC774\uBE68"
+    cmteng: minotaurus's canine tooth
+    sellprice: 100
+  - msnum: 30
+    sellmob: 7
+    sellevidence: 2
+    cmtkor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uAC00\uC8FD"
+    cmteng: minotaurus's leather
+    sellprice: 120
+  - msnum: 31
+    sellmob: 7
+    sellevidence: 3
+    cmtkor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uCF54\uC5B4"
+    cmteng: minotaurus's core
+    sellprice: 140
+  - msnum: 9000
+    sellmob: 0
+    sellevidence: 0
+    cmtkor: "\uC99D\uAC70\uD488\uC744 \uD310\uB9E4\uD558\uC5EC \uB3C8\uC744 \uC5BB\uC744
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    cmteng: You can get money by selling evidence.
+    sellprice: 0
+  - msnum: 9001
+    sellmob: 0
+    sellevidence: 0
+    cmtkor: "\uC758\uB8B0\uB97C \uD1B5\uD574 \uC5BB\uB294 \uB3C8\uACFC \uC798 \uBE44\uAD50\uD574\uBCF4\uC138\uC694."
+    cmteng: Compare well with the money you get from the request.
+    sellprice: 0

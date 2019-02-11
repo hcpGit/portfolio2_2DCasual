@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb4931813a361148a6651be452ff88e, type: 3}
+  m_Name: Client_QuestSay_Normal_Setting
+  m_EditorClassIdentifier: 
+  templatePath: 00.MyFolder/From3thParty/QuickSheet/GDataPlugin/Templates
+  scriptFilePath: 00.MyFolder/From3thParty/QuickSheet/Runtime
+  editorScriptFilePath: 00.MyFolder/From3thParty/QuickSheet/GDataPlugin/Editor
+  sheetName: MPQGame
+  workSheetName: Client_QuestSay_Normal
+  columnHeaderList:
+  - type: 3
+    name: mobevinum
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: mob
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: evidence
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: say1kor
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: say1eng
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: say2kor
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: say2eng
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: say3kor
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: say3eng
+    isEnable: 0
+    isArray: 0
+  AccessCode: 

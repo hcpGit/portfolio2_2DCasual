@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e33ea0657298548ab3ef7b1c7c42f2, type: 3}
+  m_Name: MaxMonsterThreat
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: MaxMonsterThreat
+  dataArray:
+  - threatid: 0
+    mob: 0
+    maxthreatnumber: 100
+  - threatid: 1
+    mob: 1
+    maxthreatnumber: 90
+  - threatid: 2
+    mob: 2
+    maxthreatnumber: 80
+  - threatid: 3
+    mob: 3
+    maxthreatnumber: 70
+  - threatid: 4
+    mob: 4
+    maxthreatnumber: 60
+  - threatid: 5
+    mob: 5
+    maxthreatnumber: 50
+  - threatid: 6
+    mob: 6
+    maxthreatnumber: 40
+  - threatid: 7
+    mob: 7
+    maxthreatnumber: 30

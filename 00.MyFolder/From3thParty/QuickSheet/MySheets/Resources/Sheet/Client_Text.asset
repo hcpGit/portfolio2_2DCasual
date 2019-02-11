@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd013b54a08f0a14fa17ead1312b247b, type: 3}
+  m_Name: Client_Text
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Client_Text
+  dataArray:
+  - ctnum: 0
+    clientstatename: IDLE
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: '-'
+    playertext1eng: '-'
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 1
+    clientstatename: COMMISSION
+    charatextkor: "\uD018\uC2A4\uD2B8 \uBC1C\uC8FC \uC880 \uD569\uC2DC\uB2E4. \uCC29\uC218\uAE08\uC73C\uB85C
+      [0] \uACE8\uB4DC \uC9C0\uBD88\uD558\uACE0 \uB098\uC911\uC5D0 \uC131\uACF5 \uBCF4\uC218\uB85C
+      [1] \uC9C0\uBD88\uD558\uACA0\uC18C."
+    charatexteng: Let me order a quest. I'll pay you [0] Gold as a deposit right now
+      and pay you [1] Gold later as a success
+    playertext1kor: "\uC5B4\uC11C\uC624\uC138\uC694!"
+    playertext1eng: Welcome!
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 2
+    clientstatename: COMMISSION_SAY_1
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: "\uB124. \uC7A0\uC2DC\uB9CC \uAE30\uB2E4\uB824\uC8FC\uC138\uC694."
+    playertext1eng: Yeah. Wait a seconds.
+    playertext2kor: "\uC74C... \uBB50\uB77C\uAD6C\uC694?"
+    playertext2eng: Um... Excuse me?
+  - ctnum: 3
+    clientstatename: COMMISSION_SAY_2
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: "\uC544, \uC774\uC81C \uC54C\uACA0\uB124\uC694. \uC7A0\uC2DC\uB9CC
+      \uAE30\uB2E4\uB824\uC8FC\uC138\uC694."
+    playertext1eng: Oh, Now I got it. Wait a sconds please.
+    playertext2kor: "\uC8C4\uC1A1\uD55C\uB370 \uD55C \uBC88\uB9CC \uB2E4\uC2DC \uB9D0\uD574\uC8FC\uC2E4\uB798\uC694?"
+    playertext2eng: Sorry. Could you repeat that?
+  - ctnum: 4
+    clientstatename: COMMISSION_SAY_3
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: "\uC774\uC81C \uC815\uD655\uD788 \uC54C\uACA0\uB124\uC694. \uC7A0\uC2DC\uB9CC\uC694."
+    playertext1eng: Ah! Now I Know exactly. Hold on.
+    playertext2kor: "\uC8C4\uC1A1\uD569\uB2C8\uB2E4. \uC815\uB9D0 \uBABB \uC54C\uC544\uB4E3\uACA0\uC5B4\uC694.
+      \uADF8\uB7F0\uB370 \uC194\uC9C1\uD788 \uACE0\uAC1D\uB2D8\uB3C4 \uB9D0\uD558\uC2DC\uB294
+      \uAC8C \uC601... "
+    playertext2eng: I'm sorry. I really don't understand. Repeat that again plz?
+  - ctnum: 5
+    clientstatename: COMMISSION_MAKE_START
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: '-'
+    playertext1eng: '-'
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 6
+    clientstatename: COMMISION_MAKE_DONE
+    charatextkor: "[0] \uC77C \uD6C4\uC5D0 \uD655\uC778\uD558\uB7EC \uC62C\uD14C\uB2C8
+      \uAE54\uB054\uD55C \uC77C\uCC98\uB9AC \uBD80\uD0C1\uD569\uB2C8\uB2E4. \uC57D\uC18D\uD588\uB358
+      \uCC29\uC218\uAE08 [1] \uACE8\uB4DC\uC694."
+    charatexteng: I'll be back in a [0] days to check, so please take care of it.
+      Here is [1] Gold as a deposit I promised.
+    playertext1kor: "\uBB3C\uB860\uC774\uC8E0. \uAC71\uC815 \uBD99\uB4E4\uC5B4 \uB9E4\uC138\uC694.
+      \uC548\uB155\uD788 \uAC00\uC138\uC694."
+    playertext1eng: Sure. Don't worry about it. Good Bye.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 7
+    clientstatename: COMMISSION_CANCEL
+    charatextkor: "\uC815\uB9D0 \uB2F5\uB2F5\uD55C \uC0AC\uB78C\uC77C\uC138. \uC7A5\uC0AC
+      \uC774\uB7F0 \uC2DD\uC73C\uB85C \uD558\uC9C0 \uB9C8\uC1FC! \uB0B4\uAC00 \uB2E4\uB978
+      \uB370\uB97C \uAC00\uACE0 \uB9D0\uC9C0."
+    charatexteng: God! You're really stuffy. Don't do business like this! I'll order
+      somewhere else.
+    playertext1kor: "\uBBF8\uC548\uD569\uB2C8\uB2E4. \uC0B4\uD3B4\uAC00\uC138\uC694."
+    playertext1eng: I apologize this. Bye.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 8
+    clientstatename: CHECK_NO_EXPIRE
+    charatextkor: "[0] \uC77C\uC804\uC5D0 \uD018\uC2A4\uD2B8 \uBC1C\uC8FC\uD588\uB358
+      \uC0AC\uB78C\uC785\uB2C8\uB2E4. \uC5B4\uB514 \uD55C \uBC88 \uACB0\uACFC\uBB3C\uC744
+      \uBD05\uC2DC\uB2E4."
+    charatexteng: I ordered the quest [0] days ago. Let's take a look at the results.
+    playertext1kor: "\uAE30\uB2E4\uB9AC\uACE0 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC7A0\uC2DC\uB9CC\uC694."
+    playertext1eng: I've been waiting you. Hold on.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 9
+    clientstatename: CHECK_EXPIRED
+    charatextkor: "\uC77C\uC804\uC5D0 \uD018\uC2A4\uD2B8 \uD655\uC778 \uCC28 \uB4E4\uB800\uC9C0\uB9CC
+      \uC751\uB300\uB97C \uBABB \uBC1B\uACE0 \uD5C8\uD0D5\uC744 \uCCE4\uC73C\uB2C8
+      \uBD80\uB4DD\uBD88 \uBCF4\uC218\uAE08\uC744 \uC880 \uAE4E\uACA0\uC18C."
+    charatexteng: I've stopped by to check the quest before, but I haven't been able
+      to respond, so I'm going to have to cut the pay.
+    playertext1kor: "\uBBF8\uC548\uD558\uAC8C \uB410\uC2B5\uB2C8\uB2E4. \uC7A0\uC2DC\uB9CC
+      \uAE30\uB2E4\uB824\uC8FC\uC138\uC694."
+    playertext1eng: I apologize that. Hold on.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 10
+    clientstatename: CHECK_START
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: '-'
+    playertext1eng: '-'
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 11
+    clientstatename: CHECK_IMPERFACT_00
+    charatextkor: "\uACB0\uACFC\uBB3C\uC774 \uB0B4 \uC758\uB8B0 \uB0B4\uC6A9\uC744
+      \uD558\uB098\uB3C4 \uCDA9\uC871\uD558\uC9C0 \uBABB\uD558\uC796\uC18C! \uBCF4\uC218\uAE08\uC740
+      \uCEE4\uB155 \uCC29\uC218\uAE08\uC73C\uB85C \uC9C0\uBD88\uD588\uB358 [0] \uACE8\uB4DC\uB97C
+      \uB418\uB3CC\uB824 \uBC1B\uC544\uC57C\uACA0\uC18C. \uC815\uB9D0\uC774\uC9C0
+      \uBBFF\uC744 \uC218\uAC00 \uC5C6\uAD70."
+    charatexteng: The results don't meet any of my requests! Instead of paying for
+      success, I should take back the [0] gold that I paid as a deposit. I can't believe
+      it.
+    playertext1kor: "\uBBF8\uC548\uD569\uB2C8\uB2E4. \uC0B4\uD3B4\uAC00\uC138\uC694."
+    playertext1eng: I apologize this. Bye.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 12
+    clientstatename: CHECK_IMPERFACT_50
+    charatextkor: "\uACB0\uACFC\uBB3C\uC774 \uC88B\uAC8C \uBD10\uC57C \uC758\uB8B0
+      \uB0B4\uC6A9\uC758 \uBC18\uC808 \uC815\uB3C4\uB9CC \uCDA9\uC871\uD558\uB294\uAD70.
+      [0] \uACE8\uB4DC\uB97C \uC131\uACF5 \uBCF4\uC218\uB85C \uC9C0\uBD88\uD558\uACA0\uC18C."
+    charatexteng: At best, the results are half as good as the request. I will pay
+      you [0] gold for your success.
+    playertext1kor: "\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uC548\uB155\uD788 \uAC00\uC138\uC694."
+    playertext1eng: Thanks. Good Bye.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 13
+    clientstatename: CHECK_IMPERFACT_80
+    charatextkor: "\uC0B4\uC9DD \uC544\uC27D\uC9C0\uB9CC \uC774 \uC815\uB3C4\uBA74
+      \uC900\uC218\uD55C \uACB0\uACFC\uC9C0. [0] \uACE8\uB4DC\uB97C \uC131\uACF5 \uBCF4\uC218\uB85C
+      \uC9C0\uBD88\uD558\uACA0\uC18C."
+    charatexteng: It's a bit disappointing, but this is a good result. Here [0] gold
+      is as a success.
+    playertext1kor: "\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uC548\uB155\uD788 \uAC00\uC138\uC694."
+    playertext1eng: Thanks. Good Bye.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 14
+    clientstatename: CHECK_IMPERFACT_95
+    charatextkor: "\uC815\uB9D0\uC774\uC9C0 \uAC04\uBC1C\uC758 \uCC28\uB85C \uC644\uBCBD\uD55C
+      \uACB0\uACFC\uB97C \uC774\uB8E8\uC9C0 \uBABB\uD588\uAD70. \uC5EC\uAE30 \uC131\uACF5
+      \uBCF4\uC218\uC778 [0] \uACE8\uB4DC\uC694. "
+    charatexteng: I'm sure you didn't get the perfect result by a hairbreadth. Here's
+      [0] Gold, a success pay.
+    playertext1kor: "\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uC548\uB155\uD788 \uAC00\uC138\uC694."
+    playertext1eng: Thanks. Good Bye.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 15
+    clientstatename: CHECK_PERFACT
+    charatextkor: "\uC644\uBCBD\uD558\uAD70! \uC870\uC6A9\uD788 \uD558\uACE0 \uB0B4
+      [0] \uACE8\uB4DC\uB97C \uBC1B\uAC8C\uB098!"
+    charatexteng: It's perfact! Be Quiet And Take My [0] Gold As Success Pay!
+    playertext1kor: "\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uB610 \uBC29\uBB38\uD558\uC2DC\uAE38
+      \uAE30\uB2E4\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."
+    playertext1eng: Thanks. I'll look forward to seeing you again.
+    playertext2kor: '-'
+    playertext2eng: '-'
+  - ctnum: 16
+    clientstatename: LEAVE
+    charatextkor: '-'
+    charatexteng: '-'
+    playertext1kor: '-'
+    playertext1eng: '-'
+    playertext2kor: '-'
+    playertext2eng: '-'

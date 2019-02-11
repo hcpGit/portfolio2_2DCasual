@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab53ee190e799b741b4d6a7476647b9f, type: 3}
+  m_Name: UIGeneralTexts
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: UIGeneralTexts
+  dataArray:
+  - uigtid: 0
+    uiname: start
+    uigeneraltextkeyname: load
+    kor: "\uC774\uC5B4\uC11C \uD558\uAE30"
+    eng: Continue!
+  - uigtid: 1
+    uiname: start
+    uigeneraltextkeyname: config
+    kor: "\uC124\uC815"
+    eng: Setting
+  - uigtid: 2
+    uiname: start
+    uigeneraltextkeyname: warnNewStart
+    kor: "\uAE30\uC874\uC758 \uC138\uC774\uBE0C\uB370\uC774\uD130\uB97C \uC0AD\uC81C\uD560
+      \uAC83\uC785\uB2C8\uB2E4.!\uC815\uB9D0 \uC0C8\uB85C \uAC8C\uC784\uC744 \uC9C4\uD589\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    eng: You gonna delete your SavedData!  Are you sure?
+  - uigtid: 3
+    uiname: cqm
+    uigeneraltextkeyname: dump
+    kor: "\uBC84\uB9AC\uAE30"
+    eng: Dump
+  - uigtid: 4
+    uiname: cqm
+    uigeneraltextkeyname: onemore
+    kor: "\uD558\uB098 \uB354"
+    eng: One More
+  - uigtid: 5
+    uiname: cqm
+    uigeneraltextkeyname: complete
+    kor: "\uC644\uC131"
+    eng: Complete
+  - uigtid: 6
+    uiname: cqm
+    uigeneraltextkeyname: stamp
+    kor: "\uB3C4\uC7A5 \uCC0D\uAE30"
+    eng: Stamp
+  - uigtid: 7
+    uiname: cqc
+    uigeneraltextkeyname: writtenquestlist
+    kor: "\uC791\uC131\uD588\uB358 \uD018\uC2A4\uD2B8 \uB0B4\uC6A9"
+    eng: Written Quest Content
+  - uigtid: 8
+    uiname: cqc
+    uigeneraltextkeyname: nowinven
+    kor: "\uD604\uC7AC \uC99D\uAC70\uD488 \uC778\uBCA4\uD1A0\uB9AC"
+    eng: Current Evidence Inventory
+  - uigtid: 9
+    uiname: cqc
+    uigeneraltextkeyname: selectedlist
+    kor: "\uC120\uD0DD\uD55C \uC99D\uAC70\uD488 \uBAA9\uB85D"
+    eng: Selected Evidence List
+  - uigtid: 10
+    uiname: cqc
+    uigeneraltextkeyname: submitbtn
+    kor: "\uC81C\uCD9C"
+    eng: Submit
+  - uigtid: 11
+    uiname: hr
+    uigeneraltextkeyname: orderedlist
+    kor: "\uC791\uC131\uD588\uB358 \uD018\uC2A4\uD2B8 \uBAA9\uB85D"
+    eng: Ordered list
+  - uigtid: 12
+    uiname: hr
+    uigeneraltextkeyname: hunterbring
+    kor: "\uD5CC\uD130\uC758 \uC0AC\uB0E5\uD488"
+    eng: Hunted list
+  - uigtid: 13
+    uiname: hr
+    uigeneraltextkeyname: completeness
+    kor: "\uC644\uC131\uB3C4 : "
+    eng: 'Completeness : '
+  - uigtid: 14
+    uiname: hr
+    uigeneraltextkeyname: allpay
+    kor: "\uC644\uC804 \uC9C0\uBD88"
+    eng: Pay All
+  - uigtid: 15
+    uiname: hr
+    uigeneraltextkeyname: partpay
+    kor: "\uBD80\uBD84 \uC9C0\uBD88"
+    eng: Pay Partial
+  - uigtid: 16
+    uiname: hr
+    uigeneraltextkeyname: denypay
+    kor: "\uC9C0\uBD88 \uAC70\uBD80"
+    eng: Deny Pay
+  - uigtid: 17
+    uiname: hr
+    uigeneraltextkeyname: payment
+    kor: "\uC9C0\uBD88"
+    eng: pay
+  - uigtid: 18
+    uiname: hiq
+    uigeneraltextkeyname: rentableweapon
+    kor: "\uB300\uC5EC\uD560 \uC218 \uC788\uB294 \uBB34\uAE30"
+    eng: Rentable Weapons
+  - uigtid: 19
+    uiname: hiq
+    uigeneraltextkeyname: equipslot
+    kor: "\uC7A5\uCC29 \uAC00\uB2A5\uD55C \uBB34\uAE30 \uC2AC\uB86F : "
+    eng: 'Equip Slot : '
+  - uigtid: 20
+    uiname: hiq
+    uigeneraltextkeyname: huntercap
+    kor: "\uD5CC\uD130 \uB2A5\uB825\uCE58 :"
+    eng: 'Hunter''s Capability :'
+  - uigtid: 21
+    uiname: hiq
+    uigeneraltextkeyname: questCap
+    kor: "\uD018\uC2A4\uD2B8 \uC694\uAD6C \uB2A5\uB825\uCE58 :"
+    eng: 'Required Capability :'
+  - uigtid: 22
+    uiname: hiq
+    uigeneraltextkeyname: questlist
+    kor: "\uC758\uB8B0 \uAC00\uB2A5\uD55C \uD018\uC2A4\uD2B8 \uBAA9\uB85D"
+    eng: Available Quest List
+  - uigtid: 23
+    uiname: hiq
+    uigeneraltextkeyname: choicebtn
+    kor: "\uC120\uD0DD"
+    eng: Choice
+  - uigtid: 24
+    uiname: hiq
+    uigeneraltextkeyname: cancelbtn
+    kor: "\uCDE8\uC18C"
+    eng: Cancel
+  - uigtid: 25
+    uiname: quickMessage
+    uigeneraltextkeyname: visited
+    kor: "\uC774 \uBC29\uBB38\uD588\uC2B5\uB2C8\uB2E4."
+    eng: ' visited.'
+  - uigtid: 26
+    uiname: quickMessage
+    uigeneraltextkeyname: leaved
+    kor: "\uC774 \uADF8\uB0E5 \uB3CC\uC544\uAC11\uB2C8\uB2E4."
+    eng: ' leaved.'
+  - uigtid: 27
+    uiname: merchant
+    uigeneraltextkeyname: wt
+    kor: "\uBB34\uAE30"
+    eng: Weapon
+  - uigtid: 28
+    uiname: merchant
+    uigeneraltextkeyname: ut
+    kor: "\uC5C5\uADF8\uB808\uC774\uB4DC"
+    eng: Upgrade
+  - uigtid: 29
+    uiname: merchant
+    uigeneraltextkeyname: it
+    kor: "\uC778\uD14C\uB9AC\uC5B4"
+    eng: Interior
+  - uigtid: 30
+    uiname: merchant
+    uigeneraltextkeyname: pt
+    kor: "\uBB38\uC11C"
+    eng: Paper
+  - uigtid: 31
+    uiname: merchant
+    uigeneraltextkeyname: st
+    kor: "\uC99D\uAC70\uD488 \uD310\uB9E4"
+    eng: Sell Evidence
+  - uigtid: 32
+    uiname: merchant
+    uigeneraltextkeyname: merchantcomment
+    kor: "\uC0C1\uC778\uC758 \uD55C \uB9C8\uB514"
+    eng: Merchant Comment
+  - uigtid: 33
+    uiname: merchant
+    uigeneraltextkeyname: buybtn
+    kor: "\uAD6C\uC785"
+    eng: Buy
+  - uigtid: 34
+    uiname: merchant
+    uigeneraltextkeyname: sellbtn
+    kor: "\uD310\uB9E4"
+    eng: Sell
+  - uigtid: 35
+    uiname: merchant
+    uigeneraltextkeyname: currentgold
+    kor: "\uD604\uC7AC \uACE8\uB4DC"
+    eng: Current Golds
+  - uigtid: 36
+    uiname: merchant
+    uigeneraltextkeyname: wttitle
+    kor: "\uBB34\uAE30 \uD310\uB9E4 \uBAA9\uB85D"
+    eng: Weapon Sales
+  - uigtid: 37
+    uiname: merchant
+    uigeneraltextkeyname: uttitle
+    kor: "\uC5C5\uADF8\uB808\uC774\uB4DC \uD310\uB9E4 \uBAA9\uB85D"
+    eng: Upgrade Sales
+  - uigtid: 38
+    uiname: merchant
+    uigeneraltextkeyname: ittitle
+    kor: "\uC778\uD14C\uB9AC\uC5B4 \uD310\uB9E4 \uBAA9\uB85D"
+    eng: Interior Sales
+  - uigtid: 39
+    uiname: merchant
+    uigeneraltextkeyname: pttitle
+    kor: "\uBB38\uC11C \uD310\uB9E4 \uBAA9\uB85D"
+    eng: Paper Sales
+  - uigtid: 40
+    uiname: merchant
+    uigeneraltextkeyname: sttitle
+    kor: "\uC0C1\uC778\uC5D0\uAC8C \uD310\uB9E4\uD560 \uC218 \uC788\uB294 \uC544\uC774\uD15C
+      \uBAA9\uB85D"
+    eng: Items you can sell to merchant
+  - uigtid: 41
+    uiname: call
+    uigeneraltextkeyname: todayHolded
+    kor: "\uC624\uB298 \uAC16\uACE0 \uC788\uB358 \uACE8\uB4DC"
+    eng: Golds I had today
+  - uigtid: 42
+    uiname: call
+    uigeneraltextkeyname: todayDef
+    kor: "\uBC29\uC704\uBE44\uC6A9 \uC9C0\uBD88"
+    eng: Defense Expenses
+  - uigtid: 43
+    uiname: call
+    uigeneraltextkeyname: todayQIncome
+    kor: "\uC758\uB8B0 \uC218\uC785"
+    eng: Client Income
+  - uigtid: 44
+    uiname: call
+    uigeneraltextkeyname: todayQPay
+    kor: "\uD018\uC2A4\uD2B8 \uD5CC\uD130 \uBE44\uC6A9 \uC9C0\uBD88"
+    eng: Hunter Payment
+  - uigtid: 45
+    uiname: call
+    uigeneraltextkeyname: todayMBuy
+    kor: "\uC0C1\uC810 \uAD6C\uC785 \uBE44\uC6A9"
+    eng: Shopping
+  - uigtid: 46
+    uiname: call
+    uigeneraltextkeyname: todayMSell
+    kor: "\uC0C1\uC810 \uD310\uB9E4 \uC218\uC785"
+    eng: Sale Income
+  - uigtid: 47
+    uiname: call
+    uigeneraltextkeyname: todayRemainGold
+    kor: "\uB0A8\uC740 \uACE8\uB4DC"
+    eng: Remain Golds
+  - uigtid: 48
+    uiname: call
+    uigeneraltextkeyname: noteThreatWarn
+    kor: "\uBAAC\uC2A4\uD130 \uC704\uD5D8\uB3C4 \uCD5C\uACE0\uCE58 \uC5F0\uC18D [0]
+      \uC77C"
+    eng: Monster Risk Hits Max [0] days in a row.
+  - uigtid: 49
+    uiname: call
+    uigeneraltextkeyname: noteGoldRunoutWarn
+    kor: "\uBC29\uC704 \uBE44\uC6A9 \uCC44\uBB34 \uC5F0\uC18D [0] \uC77C"
+    eng: Defense Expenses Debt [0] days in a row.
+  - uigtid: 50
+    uiname: call
+    uigeneraltextkeyname: noteEndInfo
+    kor: "\uC5F0\uC18D [0] \uC77C \uC774\uBA74 \uC0AC\uB9DD\uD569\uB2C8\uB2E4."
+    eng: You gonna Die [0] days in a row.
+  - uigtid: 51
+    uiname: threat
+    uigeneraltextkeyname: hunters
+    kor: "\uD5CC\uD130\uAC00 \uC0AC\uB0E5\uC744 \uC2DC\uC791\uD569\uB2C8\uB2E4..."
+    eng: Hunters hunt...
+  - uigtid: 52
+    uiname: threat
+    uigeneraltextkeyname: increase
+    kor: "\uBC24, \uBAAC\uC2A4\uD130 \uB4E4\uC774 \uCD9C\uBAB0\uD558\uAE30 \uC2DC\uC791\uD569\uB2C8\uB2E4..."
+    eng: Monsters rises...
+  - uigtid: 53
+    uiname: merchantWeaponBtn
+    uigeneraltextkeyname: cap
+    kor: "\uBB34\uAE30 \uCD94\uAC00 \uB2A5\uB825\uCE58"
+    eng: plus capabillity
+  - uigtid: 54
+    uiname: qbtn
+    uigeneraltextkeyname: client
+    kor: "\uC758\uB8B0\uC778 :"
+    eng: 'Client :'
+  - uigtid: 55
+    uiname: qbtn
+    uigeneraltextkeyname: cap
+    kor: "\uC694\uAD6C \uB2A5\uB825\uCE58 :"
+    eng: 'Capabillity :'
+  - uigtid: 56
+    uiname: qbtn
+    uigeneraltextkeyname: expire
+    kor: "\uD5CC\uD130\uC6A9 \uB9CC\uAE30"
+    eng: Expire for Hunter
+  - uigtid: 57
+    uiname: mobshowup
+    uigeneraltextkeyname: notice
+    kor: "\uB0B4\uC77C\uBD80\uD130 [0]\uC774 \uCD9C\uBAB0\uD569\uB2C8\uB2E4. \uAC1C\uCCB4
+      \uC218\uB97C \uC904\uC774\uB824\uBA74 \uC0C1\uC778\uC5D0\uAC8C\uC11C [0] \uC0AC\uB0E5
+      \uD5C8\uAC00\uC99D\uC744 \uAD6C\uC785\uD558\uC5EC \uC0AC\uB0E5 \uD018\uC2A4\uD2B8\uB97C
+      \uBC1C\uC8FC\uD558\uC138\uC694."
+    eng: '[0] will come out from tomorrow. To reduce the number, buy a [0] hunting
+      license from a merchant and order a hunting quest.'
+  - uigtid: 58
+    uiname: inven
+    uigeneraltextkeyname: qbtnexpire
+    kor: "\uB9CC\uAE30"
+    eng: Expire Date
+  - uigtid: 59
+    uiname: inven
+    uigeneraltextkeyname: huntercap
+    kor: "\uD5CC\uD130 \uB2A5\uB825\uCE58 :"
+    eng: 'Hunt Capabillity :'
+  - uigtid: 60
+    uiname: inven
+    uigeneraltextkeyname: hunterday
+    kor: "\uC218\uC784\uC77C"
+    eng: Appointment Day
+  - uigtid: 61
+    uiname: inven
+    uigeneraltextkeyname: rentals
+    kor: "\uBE4C\uB9B0 \uBB34\uAE30\uB4E4"
+    eng: Rentals
+  - uigtid: 62
+    uiname: inven
+    uigeneraltextkeyname: evi
+    kor: "\uC99D\uAC70\uD488"
+    eng: Evidences
+  - uigtid: 63
+    uiname: inven
+    uigeneraltextkeyname: weapon
+    kor: "\uBB34\uAE30"
+    eng: Weapons
+  - uigtid: 64
+    uiname: inven
+    uigeneraltextkeyname: qlist
+    kor: "\uD018\uC2A4\uD2B8 \uBAA9\uB85D"
+    eng: Quests
+  - uigtid: 65
+    uiname: inven
+    uigeneraltextkeyname: qctx
+    kor: "\uD018\uC2A4\uD2B8 \uB0B4\uC6A9"
+    eng: Quest Content
+  - uigtid: 66
+    uiname: inven
+    uigeneraltextkeyname: qhunters
+    kor: "\uC218\uC784\uD55C \uD5CC\uD130"
+    eng: Hunters on Mission
+  - uigtid: 67
+    uiname: dom
+    uigeneraltextkeyname: adask
+    kor: "\uAD11\uACE0\uB97C \uBCF4\uC2DC\uACE0 \uBC29\uC5B4\uBE44\uC6A9 [0] \uACE8\uB4DC\uB97C
+      \uC544\uB07C\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    eng: Would you like to save [0] Gold by watching the ad?
+  - uigtid: 68
+    uiname: dom
+    uigeneraltextkeyname: adyes
+    kor: "\uB124!"
+    eng: Yes!

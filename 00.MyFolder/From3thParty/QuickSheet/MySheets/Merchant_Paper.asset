@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32492002a37591243a2b986507a7f831, type: 3}
+  m_Name: Merchant_Paper
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Merchant_Paper
+  dataArray:
+  - papernum: 1
+    paperkeyname: certificate_gargoyil
+    namekor: "\uAC00\uACE0\uC77C \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Gargoyil Hunting Certificate
+    mpcmtkor: "\uAC00\uACE0\uC77C \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560 \uC218 \uC788\uAC8C
+      \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission gargoyil
+    price: 3000
+  - papernum: 2
+    paperkeyname: certificate_hellhound
+    namekor: "\uD5EC\uD558\uC6B4\uB4DC \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Hell hound Hunting Certificate
+    mpcmtkor: "\uD5EC \uD558\uC6B4\uB4DC \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560 \uC218
+      \uC788\uAC8C \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission  hellhound
+    price: 4000
+  - papernum: 3
+    paperkeyname: certificate_wyvern
+    namekor: "\uC640\uC774\uBC88 \uC0AC\uB0E5  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Wyvern  Hunting Certificate
+    mpcmtkor: "\uC640\uC774\uBC88  \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560 \uC218 \uC788\uAC8C
+      \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission wyvern
+    price: 5000
+  - papernum: 4
+    paperkeyname: certificate_troll
+    namekor: "\uD2B8\uB864 \uC0AC\uB0E5  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Troll  Hunting Certificate
+    mpcmtkor: "\uD2B8\uB864  \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560 \uC218 \uC788\uAC8C
+      \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission troll
+    price: 6000
+  - papernum: 5
+    paperkeyname: certificate_sabretooth
+    namekor: "\uAC80\uCE58\uD638 \uC0AC\uB0E5  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Sabretooth  Hunting Certificate
+    mpcmtkor: "\uAC80\uCE58\uD638  \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560 \uC218 \uC788\uAC8C
+      \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission sabertooth
+    price: 7000
+  - papernum: 6
+    paperkeyname: certificate_griffon
+    namekor: "\uADF8\uB9AC\uD3F0 \uC0AC\uB0E5  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Griffon  Hunting Certificate
+    mpcmtkor: "\uADF8\uB9AC\uD3F0 \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560 \uC218 \uC788\uAC8C
+      \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission griffon
+    price: 8000
+  - papernum: 7
+    paperkeyname: certificate_minotaurus
+    namekor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4 \uC0AC\uB0E5  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Minotaurus  Hunting Certificate
+    mpcmtkor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4 \uC0AC\uB0E5\uC744 \uC758\uB8B0\uD560
+      \uC218 \uC788\uAC8C \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission minotaurus
+    price: 9000
+  - papernum: 8
+    paperkeyname: certificate_canine
+    namekor: "\uC774\uBE68 \uC218\uC9D1  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Canine Collecting Certificate
+    mpcmtkor: "\uC99D\uAC70\uD488\uC73C\uB85C \uC774\uBE68\uC744 \uC758\uB8B0\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    mpcmteng: You can commission canine tooth by evidense.
+    price: 15000
+  - papernum: 9
+    paperkeyname: certificate_leather
+    namekor: "\uAC00\uC8FD \uC218\uC9D1  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Leather Collecting Certificate
+    mpcmtkor: "\uC99D\uAC70\uD488\uC73C\uB85C \uAC00\uC8FD\uC744 \uC758\uB8B0\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    mpcmteng: You can commission leather by evidense.
+    price: 30000
+  - papernum: 10
+    paperkeyname: certificate_core
+    namekor: "\uCF54\uC5B4 \uC218\uC9D1  \uBC1C\uC8FC \uD5C8\uAC00\uC99D"
+    nameeng: Core Collecting Certificate
+    mpcmtkor: "\uC99D\uAC70\uD488\uC73C\uB85C \uCF54\uC5B4\uB97C \uC758\uB8B0\uD560
+      \uC218 \uC788\uAC8C \uB429\uB2C8\uB2E4."
+    mpcmteng: You can commission core by evidense.
+    price: 50000
+  - papernum: 9000
+    paperkeyname: '-'
+    namekor: '-'
+    nameeng: '-'
+    mpcmtkor: "\uC99D\uAC70\uD488 \uD5C8\uAC00\uC99D\uC744 \uC0AC\uB294 \uAC78 \uCD94\uCC9C\uD569\uB2C8\uB2E4."
+    mpcmteng: I recommend you buy a certificate of evidence.
+    price: 0
+  - papernum: 9001
+    paperkeyname: '-'
+    namekor: '-'
+    nameeng: '-'
+    mpcmtkor: "\uBAAC\uC2A4\uD130\uC758 \uC218\uB97C \uC870\uC808\uD558\uAE30 \uC704\uD574
+      \uD5C8\uAC00\uC99D\uC744 \uAD6C\uC785\uD558\uB294 \uAC78 \uC78A\uC9C0 \uB9C8\uC138\uC694."
+    mpcmteng: Don't forget to purchase a license to control the number of monsters.
+    price: 0

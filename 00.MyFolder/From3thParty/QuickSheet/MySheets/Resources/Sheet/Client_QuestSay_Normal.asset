@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0f4fb0beb0f5944a4b20df60b915a3, type: 3}
+  m_Name: Client_QuestSay_Normal
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Client_QuestSay_Normal
+  dataArray:
+  - mobevinum: 0
+    mob: 0
+    evidence: 0
+    say1kor: "\uACE0\uC190[0]\uAC1C "
+    say1eng: '[0] Goblin finger'
+    say2kor: "\uACE0\uBE14\uB9B0\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Goblin finger'
+    say3kor: "\uACE0\uBE14\uB9B0\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Goblin finger'
+  - mobevinum: 1
+    mob: 0
+    evidence: 1
+    say1kor: "\uACE0\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Goblin canine tooth'
+    say2kor: "\uACE0\uBE14\uB9B0\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Goblin canine tooth'
+    say3kor: "\uACE0\uBE14\uB9B0\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Goblin canine tooth'
+  - mobevinum: 2
+    mob: 0
+    evidence: 2
+    say1kor: "\uACE0\uAC00 [0]\uAC1C"
+    say1eng: '[0] Goblin leather'
+    say2kor: "\uACE0\uBE14\uB9B0\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Goblin leather'
+    say3kor: "\uACE0\uBE14\uB9B0\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Goblin leather'
+  - mobevinum: 3
+    mob: 0
+    evidence: 3
+    say1kor: "\uACE0\uCF54 [0]\uAC1C"
+    say1eng: '[0] Goblin core'
+    say2kor: "\uACE0\uBE14\uB9B0\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Goblin core'
+    say3kor: "\uACE0\uBE14\uB9B0\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Goblin core'
+  - mobevinum: 4
+    mob: 1
+    evidence: 0
+    say1kor: "\uAC00\uC190 [0]\uAC1C "
+    say1eng: '[0] Gargoyle finger'
+    say2kor: "\uAC00\uACE0\uC77C\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Gargoyle finger'
+    say3kor: "\uAC00\uACE0\uC77C\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Gargoyle finger'
+  - mobevinum: 5
+    mob: 1
+    evidence: 1
+    say1kor: "\uAC00\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Gargoyle canine tooth'
+    say2kor: "\uAC00\uACE0\uC77C\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Gargoyle canine tooth'
+    say3kor: "\uAC00\uACE0\uC77C\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Gargoyle canine tooth'
+  - mobevinum: 6
+    mob: 1
+    evidence: 2
+    say1kor: "\uAC00\uAC00 [0]\uAC1C"
+    say1eng: '[0] Gargoyle leather'
+    say2kor: "\uAC00\uACE0\uC77C\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Gargoyle leather'
+    say3kor: "\uAC00\uACE0\uC77C\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Gargoyle leather'
+  - mobevinum: 7
+    mob: 1
+    evidence: 3
+    say1kor: "\uAC00\uCF54 [0]\uAC1C"
+    say1eng: '[0] Gargoyle core'
+    say2kor: "\uAC00\uACE0\uC77C\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Gargoyle core'
+    say3kor: "\uAC00\uACE0\uC77C\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Gargoyle core'
+  - mobevinum: 8
+    mob: 2
+    evidence: 0
+    say1kor: "\uD5EC\uC190 [0]\uAC1C "
+    say1eng: '[0] HellHound finger'
+    say2kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] HellHound finger'
+    say3kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] HellHound finger'
+  - mobevinum: 9
+    mob: 2
+    evidence: 1
+    say1kor: "\uD5EC\uC1A1 [0]\uAC1C"
+    say1eng: '[0] HellHound canine tooth'
+    say2kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] HellHound canine tooth'
+    say3kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] HellHound canine tooth'
+  - mobevinum: 10
+    mob: 2
+    evidence: 2
+    say1kor: "\uD5EC\uAC00 [0]\uAC1C"
+    say1eng: '[0] HellHound leather'
+    say2kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say2eng: '[0] HellHound leather'
+    say3kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] HellHound leather'
+  - mobevinum: 11
+    mob: 2
+    evidence: 3
+    say1kor: "\uD5EC\uCF54 [0]\uAC1C"
+    say1eng: '[0] HellHound core'
+    say2kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] HellHound core'
+    say3kor: "\uD5EC\uD558\uC6B4\uB4DC\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] HellHound core'
+  - mobevinum: 12
+    mob: 3
+    evidence: 0
+    say1kor: "\uC640\uC190 [0]\uAC1C "
+    say1eng: '[0] Wyvern finger'
+    say2kor: "\uC640\uC774\uBC88\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Wyvern finger'
+    say3kor: "\uC640\uC774\uBC88\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Wyvern finger'
+  - mobevinum: 13
+    mob: 3
+    evidence: 1
+    say1kor: "\uC640\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Wyvern canine tooth'
+    say2kor: "\uC640\uC774\uBC88\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Wyvern canine tooth'
+    say3kor: "\uC640\uC774\uBC88\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Wyvern canine tooth'
+  - mobevinum: 14
+    mob: 3
+    evidence: 2
+    say1kor: "\uC640\uAC00 [0]\uAC1C"
+    say1eng: '[0] Wyvern leather'
+    say2kor: "\uC640\uC774\uBC88\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Wyvern leather'
+    say3kor: "\uC640\uC774\uBC88\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Wyvern leather'
+  - mobevinum: 15
+    mob: 3
+    evidence: 3
+    say1kor: "\uC640\uCF54 [0]\uAC1C"
+    say1eng: '[0] Wyvern core'
+    say2kor: "\uC640\uC774\uBC88\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Wyvern core'
+    say3kor: "\uC640\uC774\uBC88\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Wyvern core'
+  - mobevinum: 16
+    mob: 4
+    evidence: 0
+    say1kor: "\uD2B8\uC190 [0]\uAC1C "
+    say1eng: '[0] Troll finger'
+    say2kor: "\uD2B8\uB864\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Troll finger'
+    say3kor: "\uD2B8\uB864\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Troll finger'
+  - mobevinum: 17
+    mob: 4
+    evidence: 1
+    say1kor: "\uD2B8\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Troll canine tooth'
+    say2kor: "\uD2B8\uB864\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Troll canine tooth'
+    say3kor: "\uD2B8\uB864\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Troll canine tooth'
+  - mobevinum: 18
+    mob: 4
+    evidence: 2
+    say1kor: "\uD2B8\uAC00 [0]\uAC1C"
+    say1eng: '[0] Troll leather'
+    say2kor: "\uD2B8\uB864\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Troll leather'
+    say3kor: "\uD2B8\uB864\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Troll leather'
+  - mobevinum: 19
+    mob: 4
+    evidence: 3
+    say1kor: "\uD2B8\uCF54 [0]\uAC1C"
+    say1eng: '[0] Troll core'
+    say2kor: "\uD2B8\uB864\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Troll core'
+    say3kor: "\uD2B8\uB864\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Troll core'
+  - mobevinum: 20
+    mob: 5
+    evidence: 0
+    say1kor: "\uAC80\uC190 [0]\uAC1C "
+    say1eng: '[0] Sabretooth finger'
+    say2kor: "\uAC80\uCE58\uD638\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Sabretooth finger'
+    say3kor: "\uAC80\uCE58\uD638\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Sabretooth finger'
+  - mobevinum: 21
+    mob: 5
+    evidence: 1
+    say1kor: "\uAC80\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Sabretooth canine tooth'
+    say2kor: "\uAC80\uCE58\uD638\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Sabretooth canine tooth'
+    say3kor: "\uAC80\uCE58\uD638\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Sabretooth canine tooth'
+  - mobevinum: 22
+    mob: 5
+    evidence: 2
+    say1kor: "\uAC80\uAC00 [0]\uAC1C"
+    say1eng: '[0] Sabretooth leather'
+    say2kor: "\uAC80\uCE58\uD638\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Sabretooth leather'
+    say3kor: "\uAC80\uCE58\uD638\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Sabretooth leather'
+  - mobevinum: 23
+    mob: 5
+    evidence: 3
+    say1kor: "\uAC80\uCF54 [0]\uAC1C"
+    say1eng: '[0] Sabretooth core'
+    say2kor: "\uAC80\uCE58\uD638\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Sabretooth core'
+    say3kor: "\uAC80\uCE58\uD638\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Sabretooth core'
+  - mobevinum: 24
+    mob: 6
+    evidence: 0
+    say1kor: "\uADF8\uC190 [0]\uAC1C "
+    say1eng: '[0] Griffon finger'
+    say2kor: "\uADF8\uB9AC\uD3F0\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Griffon finger'
+    say3kor: "\uADF8\uB9AC\uD3F0\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Griffon finger'
+  - mobevinum: 25
+    mob: 6
+    evidence: 1
+    say1kor: "\uADF8\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Griffon canine tooth'
+    say2kor: "\uADF8\uB9AC\uD3F0\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Griffon canine tooth'
+    say3kor: "\uADF8\uB9AC\uD3F0\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Griffon canine tooth'
+  - mobevinum: 26
+    mob: 6
+    evidence: 2
+    say1kor: "\uADF8\uAC00 [0]\uAC1C"
+    say1eng: '[0] Griffon leather'
+    say2kor: "\uADF8\uB9AC\uD3F0\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Griffon leather'
+    say3kor: "\uADF8\uB9AC\uD3F0\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Griffon leather'
+  - mobevinum: 27
+    mob: 6
+    evidence: 3
+    say1kor: "\uADF8\uCF54 [0]\uAC1C"
+    say1eng: '[0] Griffon core'
+    say2kor: "\uADF8\uB9AC\uD3F0\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Griffon core'
+    say3kor: "\uADF8\uB9AC\uD3F0\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Griffon core'
+  - mobevinum: 28
+    mob: 7
+    evidence: 0
+    say1kor: "\uBBF8\uC190 [0]\uAC1C "
+    say1eng: '[0] Minotaurus finger'
+    say2kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uAC00\uB77D [0]\uAC1C "
+    say2eng: '[0] Minotaurus finger'
+    say3kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uC190\uAC00\uB77D [0]\uAC1C "
+    say3eng: '[0] Minotaurus finger'
+  - mobevinum: 29
+    mob: 7
+    evidence: 1
+    say1kor: "\uBBF8\uC1A1 [0]\uAC1C"
+    say1eng: '[0] Minotaurus canine tooth'
+    say2kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uACF3\uB2C8 [0]\uAC1C"
+    say2eng: '[0] Minotaurus canine tooth'
+    say3kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uC1A1\uACF3\uB2C8 [0]\uAC1C"
+    say3eng: '[0] Minotaurus canine tooth'
+  - mobevinum: 30
+    mob: 7
+    evidence: 2
+    say1kor: "\uBBF8\uAC00 [0]\uAC1C"
+    say1eng: '[0] Minotaurus leather'
+    say2kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uC8FD [0]\uAC1C"
+    say2eng: '[0] Minotaurus leather'
+    say3kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uAC00\uC8FD [0]\uAC1C"
+    say3eng: '[0] Minotaurus leather'
+  - mobevinum: 31
+    mob: 7
+    evidence: 3
+    say1kor: "\uBBF8\uCF54 [0]\uAC1C"
+    say1eng: '[0] Minotaurus core'
+    say2kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uC5B4 [0]\uAC1C"
+    say2eng: '[0] Minotaurus core'
+    say3kor: "\uBBF8\uB178\uD0C0\uC6B0\uB974\uC2A4\uC758 \uCF54\uC5B4 [0]\uAC1C"
+    say3eng: '[0] Minotaurus core'

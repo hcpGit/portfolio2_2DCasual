@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aea5a6056f1ba844a70d857991618ca, type: 3}
+  m_Name: Merchant_Upgrade
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Merchant_Upgrade
+  dataArray:
+  - upgradenum: 0
+    upgradekeyname: tenth_digit
+    namekor: "\uC2ED\uC758 \uC790\uB9BF\uC218 \uB3C4\uC7A5 \uCC0D\uAE30"
+    nameeng: 'Tenth Digit Stamp '
+    mucmtkor: "\uB180\uB78D\uAC8C\uB3C4 0~9 \uB3C4\uC7A5\uC744 \uAC16\uACE0 \uC788\uB2E4\uBA74
+      \uC2ED\uC758 \uC790\uB9BF\uC218\uB97C \uD55C\uBC88\uC5D0 \uCC0D\uC744 \uC218
+      \uC788\uC2B5\uB2C8\uB2E4. "
+    mucmteng: Surprise! You can stamp tenth digit stamp!
+    price: 100000
+  - upgradenum: 9000
+    upgradekeyname: '-'
+    namekor: '-'
+    nameeng: '-'
+    mucmtkor: "\uC5C5\uADF8\uB808\uC774\uB4DC\uB97C \uD1B5\uD574 \uD3B8\uC758\uC131\uC744
+      \uC5BB\uC73C\uC138\uC694."
+    mucmteng: At ease by Upgrading.
+    price: 0
+  - upgradenum: 9001
+    upgradekeyname: '-'
+    namekor: '-'
+    nameeng: '-'
+    mucmtkor: "\uB180\uB77C\uC6B4 \uAE30\uB2A5\uC744 \uC5BB\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    mucmteng: Get Surprised!
+    price: 0

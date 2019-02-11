@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab9061008778ff49a0d7c49b27d609d, type: 3}
+  m_Name: Weapon_Info
+  m_EditorClassIdentifier: 
+  SheetName: MPQGame
+  WorksheetName: Weapon_Info
+  dataArray:
+  - weaponnum: 0
+    weaponkeyname: weapon_0
+    namekor: "\uC190\uB3C4\uB07C"
+    nameeng: Hand_Axe
+    pluscapability: 300
+    brakeprob: 50
+  - weaponnum: 1
+    weaponkeyname: weapon_1
+    namekor: "\uB098\uBB34 \uD65C"
+    nameeng: Wooden_Bow
+    pluscapability: 700
+    brakeprob: 50
+  - weaponnum: 2
+    weaponkeyname: weapon_2
+    namekor: "\uB9C1\uD134"
+    nameeng: Ring-Tern
+    pluscapability: 1500
+    brakeprob: 40
+  - weaponnum: 3
+    weaponkeyname: weapon_3
+    namekor: "\uB3C8\uB3C8\uD568"
+    nameeng: COIN-fident
+    pluscapability: 2500
+    brakeprob: 35
+  - weaponnum: 4
+    weaponkeyname: weapon_4
+    namekor: "\uD5C8\uACF5\uB2F5\uBCF4\uC11C"
+    nameeng: RunBook
+    pluscapability: 5000
+    brakeprob: 30
+  - weaponnum: 5
+    weaponkeyname: weapon_5
+    namekor: "\uB8EC"
+    nameeng: RuneStone
+    pluscapability: 8000
+    brakeprob: 25
+  - weaponnum: 6
+    weaponkeyname: weapon_6
+    namekor: "\uD6E8\uC708\uB4DC"
+    nameeng: Whirlwind
+    pluscapability: 12000
+    brakeprob: 20
+  - weaponnum: 7
+    weaponkeyname: weapon_7
+    namekor: "\uAC04\uC7A5\uB9C9\uC57C"
+    nameeng: GanJiang-Moye
+    pluscapability: 20000
+    brakeprob: 10
+  - weaponnum: 8
+    weaponkeyname: weapon_8
+    namekor: "\uBC18\uACE0\uBD80"
+    nameeng: Pangu-Axe
+    pluscapability: 35000
+    brakeprob: 5
+  - weaponnum: 9
+    weaponkeyname: weapon_9
+    namekor: "\uC81C\uC6B0\uC2A4\uC758 \uBC88\uAC1C"
+    nameeng: Zeus-lightning
+    pluscapability: 50000
+    brakeprob: 1
+  - weaponnum: 10
+    weaponkeyname: weapon_10
+    namekor: "\uC5D1\uC2A4\uCE7C\uB9AC\uBC84"
+    nameeng: ExCalibur
+    pluscapability: 120000
+    brakeprob: 0.02
